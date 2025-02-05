@@ -161,7 +161,7 @@ Outlined below are each area going from left to right in the selections.
 
 ## Chromatic
 
-Chromatic is a visual testing tool that scans every possible UI state across browsers to catch bugs in appearance and functionality. It enables you to assign reviewers and resolve discussions to streamline team sign-off. It is created by the same team that made Storybook. [Read more in the Chromatic docs](https://www.chromatic.com/docs/)
+Chromatic is a visual testing tool that scans every possible UI state across browsers to catch bugs in appearance and functionality. It enables you to assign reviewers and resolve discussions to streamline team sign-off. It was created by the same team that made Storybook. [Read more in the Chromatic docs](https://www.chromatic.com/docs/)
 
 When creating a story, Chromatic creates a "snapshot" of it and sets it as a baseline. This baseline is also approved or denied before merging into the project. Whenever there are changes that affect the component, Chromatic will create a new snapshot to analyze. If there are changes, Chromatic will provide them for a reviewer to accept or decline, and be able to provide any further comments.
 
@@ -229,4 +229,4 @@ parameters: {
 }
 ```
 
-> 🚨 NOTE: This will be notated ahead of time by the team which stories should not receive snapshots.
+> 🚨 NOTE: This will be noted ahead of time by the team which stories should not receive snapshots.
